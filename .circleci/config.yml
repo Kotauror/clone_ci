@@ -14,8 +14,9 @@ jobs:
       - run:
           name: create venv and install dependencies
           command: |
-            python3 -m venv venv
-            . venv/bin/activate
+            python --version
+            # python3 -m venv venv
+            # . venv/bin/activate
             # pip install -r requirements.txt
   test:
     docker:
