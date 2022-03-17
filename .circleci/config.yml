@@ -16,6 +16,7 @@ jobs:
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       - checkout
+      - run: pip install django
       - run: python3 journal_app/tests.py
       # - run:
       #     name: "Installing dependencies"
