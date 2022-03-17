@@ -5,7 +5,7 @@ jobs:
     docker:
       - image: circleci/python:3.8
 
-    working_directory: ~/journal_app
+    # working_directory: ~/journal_app
 
     steps:
       # Step 1: obtain repo from GitHub
